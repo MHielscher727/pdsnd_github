@@ -9,6 +9,10 @@ Interactive Analysis of bikeshare csv files from chicago, washington and new yor
 
 ### Files used
 bikeshare.py
+chicago.csv 
+washington.csv 
+new york.csv
+
 
 ### Credits
 https://udacity.github.io/git-styleguide/

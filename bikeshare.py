@@ -177,12 +177,12 @@ def user_stats(df):
     
 def see_stats(df):    
     lines_from = 0
-    lines_to   = 5
+    lines_to   = 10
     
-    while input("Do you want so see the first 5 lines of raw data (yes/no) ?") == 'yes':
+    while input("Do you want so see the first 10 lines of raw data (yes/no) ?") == 'yes':
         print(df.iloc[lines_from:lines_to, :])
-        lines_from +=5
-        lines_to   +=5
+        lines_from +=10
+        lines_to   +=10
     
     
                                                
